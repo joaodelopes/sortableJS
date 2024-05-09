@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="nedpt.sortablejs.SortableJS" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Sortable JS</name>
+    <description>Sortable is a JavaScript library for reorderable drag-and-drop lists. Based on https://github.com/SortableJS/Sortable.</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description>Content of a box</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
